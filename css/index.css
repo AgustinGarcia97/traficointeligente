@@ -1,0 +1,167 @@
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  .logo {
+    width: 100px;
+    height: auto;
+  }
+  
+  main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+  }
+  
+  
+  @media (min-width: 480px) {
+    .logo {
+      width: 80px;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .info h2 {
+        background-color: black;
+        color: rgb(196, 194, 194);
+        text-align: center;
+        padding: 10px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .info .data {
+        display:flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .uade{
+        object-fit: cover;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        background-color: white;
+        padding: 3px;
+    }
+
+    div p {
+        background-color: rgba(2, 2, 2, 0.478);
+        padding: 7px;
+        color: rgb(196, 194, 194);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+
+    }
+
+    .uade h2 {
+        background-color: black;
+        color: rgb(196, 194, 194);
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        text-align: center;
+        padding: 5px;
+
+    }
+
+    .img-container {
+        width: 100%;
+        max-width: 1240px;
+        margin: 0 auto;
+        overflow: hidden; 
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        
+      }
+      
+      .img-container img {
+        width: 100%;
+        height: auto; 
+        display: block; 
+      }
+
+  }
+  
+ 
+  @media (min-width: 768px) {
+    .logo {
+      width: 120px;
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .info h2 {
+        padding: 20px;
+        font-size: 30px;
+    }
+
+    .info .data {
+        display:flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .uade{
+        padding: 5px;
+    }
+
+    div p {
+        padding: 15px;
+        font-size: 20px;
+
+    }
+
+    .uade h2 {
+        padding: 20px;
+
+    }
+
+    .img-container {
+        width: 100%;
+        max-width: 1240px;
+        margin: 0 auto;
+        overflow: hidden; 
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        
+      }
+      
+      .img-container img {
+        width: 100%;
+        height: auto; 
+        display: block; 
+      }
+
+
+
+  }
+  
+ 
+  @media (min-width: 1024px) {
+    .logo {
+      width: 150px;
+    }
+
+    .info{
+        text-align: center;
+    }
+
+
+  }
