@@ -11,22 +11,29 @@ body {
   }
   
   main {
-    padding: 20px;
+    
     display: flex;
     flex-direction: column;
     gap:10px;
   }
   
   
-  @media (min-width: 480px) {
+  @media (min-width: 428px) {
     .logo {
       width: 80px;
+    }
+
+    main{
+        padding: 0px;
     }
 
     .info{
         display: flex;
         flex-direction: column;
         gap:20px;
+        padding: 0px;
+        padding: 20px;
+    
     }
 
     .info h2 {
@@ -48,12 +55,10 @@ body {
 
     .uade{
         object-fit: cover;
-        border-top-left-radius: 20px;
-        border-top-right-radius: 20px;
-        border-bottom-right-radius: 20px;
-        border-bottom-left-radius: 20px;
-        background-color: white;
-        padding: 3px;
+        
+        width: 100%;
+  
+
     }
 
     div p {
@@ -82,21 +87,27 @@ body {
         max-width: 1240px;
         margin: 0 auto;
         overflow: hidden; 
-        border-bottom-right-radius: 20px;
-        border-bottom-left-radius: 20px;
+        height: 300px;
+       
         
       }
       
-      .img-container img {
-        width: 100%;
-        height: auto; 
-        display: block; 
+      .img-container img{
+        width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+        height: 100%; /* Mantiene la proporción de la imagen */
+        display: block;
+        object-fit: cover; /* Escala la imagen para que llene el contenedor manteniendo la relación de aspecto */
+        object-position: center; /
       }
+     
 
   }
   
  
   @media (min-width: 768px) {
+
+    
+
     .logo {
       width: 120px;
     }
@@ -138,14 +149,14 @@ body {
         max-width: 1240px;
         margin: 0 auto;
         overflow: hidden; 
-        border-bottom-right-radius: 20px;
-        border-bottom-left-radius: 20px;
+        height: 400px;
+       
         
       }
       
       .img-container img {
         width: 100%;
-        height: auto; 
+        height: 100%; 
         display: block; 
       }
 
@@ -159,9 +170,37 @@ body {
       width: 150px;
     }
 
-    .info{
-        text-align: center;
+    main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
+    .info{
+        text-align: center;
+        width: 50%;
+    }
 
+    .uade {
+        width: 100%;
+         /* La sección ocupa todo el ancho de la pantalla */
+    }
+    
+    .img-container {
+        width: 100%; /* El contenedor ocupa todo el ancho de la pantalla */
+        height: 500px; /* Altura fija de 300px */
+        overflow: hidden; /* Oculta cualquier contenido que exceda el contenedor */
+        margin: 0px;
+        max-width: 2000px;
+    }
+    
+    .img-container img {
+        width: 100%; /* La imagen ocupa todo el ancho del contenedor */
+        height: 100%; /* Mantiene la proporción de la imagen */
+        display: block; /* Elimina cualquier espacio en línea */
+        object-fit: cover; /* Ajusta la imagen para cubrir el contenedor */
+        object-position: 50% 50%; /* Posiciona la imagen en el centro del contenedor */
+    }
+
+    
   }

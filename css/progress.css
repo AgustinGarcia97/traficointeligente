@@ -1,0 +1,261 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap:30px;
+}
+
+
+section{
+    
+    height: auto;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    
+   
+   
+}
+
+section div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 70%;
+
+    
+}
+
+section div h2 {
+    background-color: #32312c9d;
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color:rgb(100, 55, 7);
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+section div p {
+    background-color: white;
+    width: 100%;
+    padding: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.palleteContainer{
+ 
+    display: flex;
+    gap:5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.0);
+    background-color: white;
+}
+
+
+.assetsData
+{
+    background-color: rgba(0, 0, 0, 0.286);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.palleteInfo{
+    
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    color:white;
+    padding: 5px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.0);
+    background-color: white;
+
+}
+
+.palleteInfo p {
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color:black;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.0);
+    background-color: rgba(0, 0, 0, 0.425);
+   
+    
+}
+
+.color1 , .color2 , .color3  {
+    background-color: white;
+   
+    color:white;
+    padding: 0px;
+    height: 100px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.0);
+}
+
+.color1 strong, .color2 strong, .color3 strong {
+    background-color: transparent;
+    text-align: center;
+    color:black;
+   
+}
+
+.color1{
+    background-color: #F8F4E1;
+   
+   
+}
+
+.color2{
+    background-color: #cab308;
+   
+}
+
+.color3{
+    background-color: #643707;
+}
+
+
+@media(min-width:428px) {
+    main {
+     
+        padding: 30px;
+
+        gap:30px;
+    }
+    
+    
+    section{
+        
+        height: auto;
+        width: 100%;
+        padding: 20px;
+    
+       
+       
+    }
+    
+    section div {
+      
+        padding: 5px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-bottom-left-radius: 20px;
+        width: 100%;
+     
+    
+    
+        
+    }
+    
+    section div h2 {
+        padding: 20px;
+        width: 100%;
+        font-weight: 500;
+        font-size: 20px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+    
+    section div p {
+        width: 100%;
+        padding: 20px;
+        font-weight: 300;
+        font-size: 15px;
+    }
+    
+    .palleteContainer{
+        gap:5px;
+       
+    }
+    
+    
+    .palleteInfo{
+        width: 100%;
+        gap:5px; 
+    }
+    
+    .palleteInfo p {
+        width: 100%    
+    }
+    
+    .color1 , .color2 , .color3  {
+     
+        height: 100px;
+        width: 100px;
+      
+    }
+    
+    
+   
+    
+    
+}
+
+@media(min-width:720px) {
+    main {
+     
+        padding: 30px;
+     
+        gap:30px;
+    }
+    
+  
+    
+   
+    
+    .color1 , .color2 , .color3  {
+     
+        height: 150px;
+        width: 150px;
+      
+    }
+
+
+    section div h2 {
+        padding: 20px;
+    
+  
+        font-size: 25px;
+      
+    }
+    
+    section div p {
+ 
+        padding: 20px;
+        font-weight: 300;
+        font-size: 20px;
+    }
+}
+   
+
+
