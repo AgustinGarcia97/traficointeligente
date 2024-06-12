@@ -6,17 +6,17 @@
 
 header {
   display: flex;
-  background: #3c3b3f; 
+  background: #3c3b3f; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to right,
     #605c3c,
     #3c3b3f
-  ); 
+  ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to right,
     #605c3c,
     #3c3b3f
-  ); 
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 nav div,
@@ -60,6 +60,7 @@ nav div div a {
   nav div {
     display: flex;
     flex-direction: column;
+
     gap: 10px;
     height: 140px;
     width: 100%;
@@ -68,6 +69,7 @@ nav div div a {
   nav div div {
     height: 40px;
     width: 100%;
+
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
     padding-left: 20px;
     background-color: black;

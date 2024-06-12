@@ -1,0 +1,212 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+
+.game-section{
+    height: 500px;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+.container {
+    background-image: url("https://www.shutterstock.com/shutterstock/photos/2086218034/display_1500/stock-vector-crosswalk-accident-with-pedestrian-man-with-smartphone-and-headphones-crossing-road-on-red-traffic-2086218034.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    height: 80%;
+    width: 60%;
+    border: 2px solid black;
+    align-items: center;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-bottom-left-radius: 50px;    
+    
+}
+
+
+
+ .container__title {
+    background-color: black;
+    height: 90px;
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__title h1 {
+    color: #e9e7e7;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.container__img{
+    max-width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.container__img img{
+    max-width: 100%;
+    height: auto; 
+    object-fit: cover;
+}
+
+#question { 
+    background-color: rgb(229, 212, 33);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#options {
+    background-color: black;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;   
+    display: flex;
+    height: 50px;
+    width: 90%;
+    justify-content: center;
+    gap:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: rgb(229, 212, 33);
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.option-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+button:hover {
+    background-color: #d5a432;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.nextQuestion{
+    width: 70%;
+    margin-top: 10px;
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items:center ;
+}
+
+#nextBtn{
+    padding: 5px;
+    font-size: 15px;
+    width: 60%;
+}
+
+
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
+    .container__title h1 {
+        font-size: 1.2rem;
+    }
+
+    #question {
+        font-size: 1rem;
+    }
+
+    button {
+        padding: 0px;
+        font-size: 0.9rem;
+    }
+
+    #options {
+
+        height:50px;
+        width: 90%;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #nextBtn {
+        width: 100%;
+        padding: 3px;
+    }
+
+   
+}
+
+@media (max-width: 480px) {
+    .container__title h1 {
+        font-size: 1rem;
+    }
+
+    #question {
+        font-size: 0.9rem;
+    }
+
+    button {
+        padding: 0px;
+        font-size: 0.8rem;
+    }
+
+    .option-btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+ 
+    }
+
+    #options {
+
+        height: 90px;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+
+    #nextBtn {
+        width: 100%;
+        padding: 6px;
+    }
+}
