@@ -11,7 +11,7 @@ const quizData = [
         options: ["Dar vuelta a la derecha", "Dar vuelta a la izquierda", "Contramano"],
         correctAnswer: "Contramano"
     },
-    // Agrega más preguntas y respuestas según sea necesario
+   
 ];
 
 let currentQuestion = 0;
