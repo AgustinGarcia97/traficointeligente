@@ -57,6 +57,24 @@ nav div ul li a:hover{
   font-style: normal;
 }
 
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: black;
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+}
+footer p {
+  margin: 0;
+  font-size: 16px;
+  color:white;
+}
+
+  
+
+
 @media (max-width: 480px) {
   
 
@@ -133,7 +151,17 @@ nav div ul li a:hover{
   nav ul li ul {
     display: none;
   }
+
+
+  footer p {
+    font-size: 14px;
 }
+}
+
+
+
+
+
 
 @media (min-width: 768px) {
  
@@ -207,6 +235,11 @@ nav div ul li a:hover{
   nav ul li ul {
     display: none;
   }
+
+  footer p {
+    font-size: 14px;
+}
+
 }
 
 @media (min-width: 1200px) {
@@ -219,10 +252,6 @@ nav div ul li a:hover{
     gap: 15px;
     justify-content: center;
     width: 95%;
-  
-
-  
-    
     
   }
 

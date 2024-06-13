@@ -2,6 +2,7 @@ main{
     display: flex;
     justify-content: center;
     padding: 20px;
+    height: 800px;
 }
 
 
@@ -12,7 +13,7 @@ main{
     width: 60%;
     padding: 20px;
     font-family: "Roboto",sans-serif;
-    justify-content: center;
+   
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -134,10 +135,11 @@ main{
     
 }
 
-@media (min-width:720px) {
+@media (min-width:720px) and (max-width:1080px) {
     main{
         
         padding: 20px;
+        height: 1000px;
     }
     
     
@@ -194,8 +196,9 @@ main{
 @media(min-width: 1080px){
     .container {
         
-    
+        
         width: 60%;
+        height: 550px;
     
         
     }
