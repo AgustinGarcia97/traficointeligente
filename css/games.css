@@ -191,3 +191,13 @@ main{
     
     
 }
+@media(min-width: 1080px){
+    .container {
+        
+    
+        width: 60%;
+    
+        
+    }
+    
+}

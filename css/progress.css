@@ -31,6 +31,7 @@ section div {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
     width: 70%;
 
     
@@ -144,7 +145,7 @@ section div p {
 }
 
 
-@media(min-width:428px) {
+@media(min-width:428px  )  {
     main {
      
         padding: 30px;
@@ -221,7 +222,7 @@ section div p {
     
 }
 
-@media(min-width:720px) {
+@media(min-width:720px)  {
     main {
      
         padding: 30px;
@@ -255,6 +256,17 @@ section div p {
         font-weight: 300;
         font-size: 20px;
     }
+}
+
+@media(min-width: 1080px){
+    section div {
+        
+    
+        width: 70%;
+    
+        
+    }
+    
 }
    
 
